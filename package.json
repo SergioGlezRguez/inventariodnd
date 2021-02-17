@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel serve src/index.html",
-    "build": "rm -rf build && parcel build src/index.html -d build --public-url /inventariodnd/",
+    "build": "rm -rf build && parcel build src/index.html -d dist --public-url /inventariodnd/",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
