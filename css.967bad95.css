@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.bolsa{
+    background-color: aqua;
+    border: 2px solid red;
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    border-radius: 25%;
+}
+.marcoslots{
+    background-color: yellow;
+    border: 2px solid green;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+.grid-container {
+    display: grid;
+    width: auto;
+    height: 496px;
+    border: 2px solid rgb(110, 45, 110);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    gap: 10px 20px;
+    grid-template-areas:
+      "slot1 slot1 slot1 slot1 slot1"
+      "slot2 slot2 slot2 slot2 slot2"
+      "slot3 slot3 slot3 slot3 slot3"
+      "slot4 slot4 slot4 slot4 slot4"
+      "slot5 slot5 slot5 slot5 slot5"
+      "slot6 slot6 slot6 slot6 slot6"
+  }
+  p {
+    margin: 5px 5px;  
+    background: tomato;
+    border: 2px solid black;
+}
+  .monedero{
+      background: aquamarine;
+      height: 200px;
+      width: 200px;
+      margin-right: 20px;
+      margin-top: 20px; 
+      border: 2px solid black;
+      justify-content: flex-end;      
+  }
+  img{
+      height: 20px;
+      width: 20px;
+  }
+
+/*# sourceMappingURL=/css.967bad95.css.map */
