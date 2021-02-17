@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcer serve src/index.html",
+    "dev": "parcel serve src/index.html",
     "deploy": "parcel build src/index.html -d build && gh-pages -d build --public-url /InventarioDND/",
     "run": "parcel src/index.html"
   },
