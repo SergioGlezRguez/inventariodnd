@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel serve src/index.html",
-    "deploy": "parcel build src/index.html -d build && gh-pages -d build --public-url /InventarioDND/",
-    "start": "parcel src/index.html"
+    "deploy": "parcel build src/index.html -d build && gh-pages -d build --public-url /inventariodnd/"
   },
   "keywords": [],
   "author": "Sergio",
