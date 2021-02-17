@@ -1,0 +1,7 @@
+.cache/
+node_modules/
+dist/
+build/
+.cache/
+.parchel-cache/
+.VSCode
